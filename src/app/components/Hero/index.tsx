@@ -1,5 +1,5 @@
 "use client"
-import { Flip,Reveal, Slide } from "react-awesome-reveal";
+// import { Flip,Reveal, Slide } from "react-awesome-reveal";
 
 const Hero = () => {
     return (

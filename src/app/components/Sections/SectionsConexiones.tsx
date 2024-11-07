@@ -1,5 +1,4 @@
 "use client";
-import { Fade } from "react-awesome-reveal";
 import { FaPuzzlePiece } from "react-icons/fa";
 
 const SectionConexionesForzadas = () => {
@@ -11,14 +10,14 @@ const SectionConexionesForzadas = () => {
                 <div className="bg-white shadow-lg rounded-lg p-8 w-full md:w-1/3 transform hover:scale-105 transition duration-500 ease-in-out flex items-center justify-center flex-col">
                     <FaPuzzlePiece className="text-blue-600 text-6xl mb-4" />
                     <h2 className="text-xl font-bold mb-4">Elemento A (Ox)</h2>
-                    <p className="text-gray-700 text-center">Representa el concepto de "Ox", que será una parte esencial para conectar con el siguiente componente.</p>
+                    <p className="text-gray-700 text-center">Representa el concepto de &quot Ox &quot, que será una parte esencial para conectar con el siguiente componente.</p>
                 </div>
 
                 {/* Pieza de rompecabezas derecha */}
                 <div className="bg-white shadow-lg rounded-lg p-8 w-full md:w-1/3 transform hover:scale-105 transition duration-500 ease-in-out flex items-center justify-center flex-col">
                     <FaPuzzlePiece className="text-yellow-600 text-6xl mb-4" />
                     <h2 className="text-xl font-bold mb-4">Elemento B (Cx)</h2>
-                    <p className="text-gray-700 text-center">El componente "Cx" encaja perfectamente con "Ox", creando una conexión que simboliza la unión forzada de dos ideas para obtener un resultado novedoso.</p>
+                    <p className="text-gray-700 text-center">El componente &quotCx&quot encaja perfectamente con &quotOx&quot, creando una conexión que simboliza la unión forzada de dos ideas para obtener un resultado novedoso.</p>
                 </div>
             </div>
             <div className="mt-16 px-4 md:px-20 text-center">
