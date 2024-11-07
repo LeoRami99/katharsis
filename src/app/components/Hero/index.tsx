@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         
         <div
-            className="hero min-h-screen"
+            className="hero min-h-screen -mt-28"
             style={{
                 backgroundImage: "url(/oveja.webp)",
             }}
