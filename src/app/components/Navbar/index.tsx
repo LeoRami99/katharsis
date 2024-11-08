@@ -10,7 +10,7 @@ const Navbar = () => {
         </li>
         <li><a href="#bitacoras" className="btn btn-outline btn-sm">Bitácoras</a></li>
         <li><a href="#conexiones" className="btn btn-outline btn-sm">Conexiones</a></li>
-        <li><a href="matriz" className="btn btn-outline btn-sm">Matriz</a></li>
+        <li><a href="#matriz" className="btn btn-outline btn-sm">Matriz</a></li>
         <li><a className="btn btn-outline btn-sm">Pin 5</a></li>
       </ul>
     </div>

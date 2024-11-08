@@ -23,9 +23,8 @@ export default function Home() {
         <SectionsBitacoras />
         <SectionQuestion />
         <SectionConexionesForzadas />
-        <Podio />
         <SectionMatriz />
-
+        <Podio />
       </main>
     </>
   );
