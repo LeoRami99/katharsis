@@ -51,7 +51,7 @@ const responsive = {
 
 const ObservationsSection = () => {
   return (
-    <section className="py-10 px-5" id="conexiones">
+    <section className="py-10 px-5 relative" id="conexiones">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-black text-6xl font-bold text-center mt-10 mb-16">
           Conexiones Forzadas
@@ -88,6 +88,11 @@ const ObservationsSection = () => {
           ))}
         </Carousel>
       </div>
+      <img
+        src="/ovejav2.png"
+        alt=""
+        className="w-[200px] md:w-[300px] absolute bottom-0 right-0 z-10"
+      />
     </section>
   );
 };

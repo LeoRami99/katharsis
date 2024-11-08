@@ -7,6 +7,7 @@ import SectionQuestion from "./components/Sections/SectionQuestion";
 import Podio from "./components/Sections/SeccionPodium";
 import TeamSection from "./components/Sections/SectionTeams";
 import SectionMatriz from "./components/Sections/SectionMatriz";
+import Footer from "./components/Footer";
 // const podiumData = [
 //   { name: "Alice" },
 //   { name: "Bob" },
@@ -26,6 +27,7 @@ export default function Home() {
         <SectionMatriz />
         <Podio />
       </main>
+      <Footer />
     </>
   );
 }

@@ -17,7 +17,7 @@ const teamMembers = [
 
 const TeamSection = () => {
     return (
-        <section className="py-20 " id="equipo-k">
+        <section className="py-20 relative bg-white" id="equipo-k">
             <div className="container mx-auto px-6">
                 <h2 className="text-5xl font-extrabold text-center text-gray-800 mb-16">Equipo K</h2>
                 <div className="flex flex-wrap justify-center md:gap-[100px] gap-8">
@@ -40,7 +40,13 @@ const TeamSection = () => {
                     ))}
                 </div>
             </div>
+            <img
+                src="/black-sheep.png"
+                alt=""
+                className="w-[200px] md:w-[300px] absolute bottom-0 left-0 z-10"
+            />
         </section>
+
     );
 };
 

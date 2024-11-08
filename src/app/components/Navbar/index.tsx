@@ -1,5 +1,5 @@
 const Navbar = () => {
-  return (<div className="navbar bg-base-100/50 top-0 sticky z-10 backdrop-blur-md">
+  return (<div className="navbar bg-base-100/50 top-0 sticky z-20 backdrop-blur-md">
     <div className="flex-1">
       <img src="/logo_katharsis.png" alt="Logo" className="w-60" />
     </div>
