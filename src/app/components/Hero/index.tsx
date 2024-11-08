@@ -3,9 +3,9 @@
 
 const Hero = () => {
     return (
-        
+
         <div
-            className="hero min-h-screen -mt-28"
+            className="hero min-h-screen "
             style={{
                 backgroundImage: "url(/oveja.webp)",
             }}
@@ -17,7 +17,7 @@ const Hero = () => {
                 </div>
             </div>
         </div>
-        
+
     );
 };
 

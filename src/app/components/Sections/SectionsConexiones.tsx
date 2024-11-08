@@ -51,10 +51,10 @@ const responsive = {
 
 const ObservationsSection = () => {
   return (
-    <section className="bg-gradient-to-b from-gray-100 to-gray-300 py-10 px-5">
+    <section className="py-10 px-5" id="conexiones">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-black text-6xl font-bold text-center mt-10 mb-16">
-          Conexiones Forzadas 
+          Conexiones Forzadas
         </h2>
         <p className="text-center text-gray-600 mb-12 text-lg">
           A continuación se presentan las observaciones identificadas y las acciones propuestas para cada una, con el objetivo de mejorar el ambiente organizacional y promover el bienestar de los colaboradores.
