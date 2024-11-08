@@ -7,7 +7,7 @@ const SectionQuestion = () => {
             <img
                 src="/ovejav3.png"
                 alt=""
-                className="w-[300px] md:w-[450px] absolute bottom-0  z-10"
+                className="w-[300px] md:w-[450px] absolute bottom-0  z-10 hidden md:block"
             />
         </section>
     );
