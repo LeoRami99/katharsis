@@ -130,9 +130,9 @@ const Podium: React.FC<PodiumProps> = ({ positions }) => {
 export default function Component() {
   const podiumData: [PodiumPosition, PodiumPosition, PodiumPosition] = [
     {
-      name: 'C14',
-      image: 'https://ui-avatars.com/api/?length=3&name=C14&color=000&background=fff',
-      popup: 'Tertulias Transparentes: Espacios de preguntas y respuestas entre niveles jerárquicos',
+      name: 'C8',
+      image: 'https://ui-avatars.com/api/?length=3&name=C8&color=000&background=fff',
+      popup: 'Día de sombra (pasan el día laboral como sombra de otro compañero)',
     },
     {
       name: 'C10',
@@ -140,9 +140,9 @@ export default function Component() {
       popup: 'Open Office virtual o presencial con los ejecutivos de cada área',
     },
     {
-      name: 'C8',
-      image: 'https://ui-avatars.com/api/?length=3&name=C8&color=000&background=fff',
-      popup: 'Día de sombra (pasan el día laboral como sombra de otro compañero)',
+      name: 'C14',
+      image: 'https://ui-avatars.com/api/?length=3&name=C14&color=000&background=fff',
+      popup: 'Tertulias Transparentes: Espacios de preguntas y respuestas entre niveles jerárquicos',
     },
   ];
 
