@@ -36,6 +36,7 @@ const Podium: React.FC<PodiumProps> = ({ positions }) => {
           className="flex flex-col items-center transform hover:scale-105 transition-transform duration-500 ease-in-out cursor-pointer"
           onClick={() => handlePositionClick(second)}
         >
+
           <div className="w-24 h-24 md:w-32 md:h-32 lg:w-40 lg:h-40 rounded-full overflow-hidden border-4 border-gray-400 shadow-lg mb-4">
             <img src={second.image} alt={second.name} className="w-full h-full object-cover" />
           </div>
@@ -100,7 +101,7 @@ const Podium: React.FC<PodiumProps> = ({ positions }) => {
 
 
             <button
-              className="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition"
+              className="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition w-full"
               onClick={handleClosePopup}
             >
               Cerrar
