@@ -27,7 +27,7 @@ const Navbar = () => {
           <li>
             <a
               href="#equipo-k"
-              className="relative bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className=" uppercase relative bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Equipo K
             </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <li>
             <a
               href="#bitacoras"
-              className="relative bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="uppercase relative bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Bitacoras
             </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <li>
             <a
               href="#conexiones"
-              className="relative bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="uppercase relative bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Conexiones
             </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <li>
             <a
               href="#pin5"
-              className="relative  bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="uppercase relative  bg-white text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Pin 5
             </a>

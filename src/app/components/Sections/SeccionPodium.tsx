@@ -29,7 +29,7 @@ const Podium: React.FC<PodiumProps> = ({ positions }) => {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen relative p-4" id='pin5'>
-      <h1 className="text-4xl md:text-6xl font-extrabold mb-10 text-center">Podio</h1>
+      <h1 className="text-4xl md:text-6xl font-extrabold mb-10 text-center">Las Ideas Pin</h1>
       <div className="flex items-end justify-center w-full max-w-5xl flex-wrap md:flex-nowrap gap-8 md:gap-4">
         {/* Second Place */}
         <div

@@ -64,9 +64,9 @@ const ObservationsSection = () => {
             <div key={id} className="p-4">
               <div className="flip-card puzzle-piece transition-transform transform hover:scale-105">
                 <div className="flip-card-inner">
-                  <div className="flip-card-front bg-white shadow-lg rounded-lg p-6 flex flex-col items-center justify-center">
-                    <FaRegLightbulb className="text-yellow-500 text-5xl mb-4" />
-                    <h3 className="text-2xl font-semibold text-gray-800">{id}</h3>
+                  <div className="flip-card-front bg-[#ff7730] shadow-lg rounded-lg p-6 flex flex-col items-center justify-center">
+                    <FaRegLightbulb className="text-white text-5xl mb-4" />
+                    <h3 className="text-2xl font-semibold text-white">{id}</h3>
                   </div>
                   <div className="flip-card-back bg-white shadow-lg rounded-lg p-6 flex items-center justify-center">
                     <p className="text-gray-700 text-center"><strong>Observación:</strong> {observation}</p>
@@ -75,9 +75,9 @@ const ObservationsSection = () => {
               </div>
               <div className="flip-card puzzle-piece transition-transform transform hover:scale-105 mt-8">
                 <div className="flip-card-inner">
-                  <div className="flip-card-front bg-white shadow-lg rounded-lg p-6 flex flex-col items-center justify-center">
-                    <FaHandsHelping className="text-green-500 text-5xl mb-4" />
-                    <h3 className="text-2xl font-semibold text-gray-800">{connection}</h3>
+                  <div className="flip-card-front bg-[#473ca4] shadow-lg rounded-lg p-6 flex flex-col items-center justify-center">
+                    <FaHandsHelping className="text-white text-5xl mb-4" />
+                    <h3 className="text-2xl font-semibold text-white">{connection}</h3>
                   </div>
                   <div className="flip-card-back bg-white shadow-lg rounded-lg p-6 flex items-center justify-center">
                     <p className="text-gray-700 text-center"><strong>Acción Propuesta:</strong> {action}</p>
