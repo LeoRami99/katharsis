@@ -23,29 +23,36 @@ const Navbar = () => {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex menu menu-horizontal px-1 gap-2">
+        <ul className="hidden md:flex menu menu-horizontal px-1 gap-4">
           <li>
-            <a href="#equipo-k" className="btn btn-outline btn-sm">
+            <a
+              href="#equipo-k"
+              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+            >
               Equipo K
             </a>
           </li>
           <li>
-            <a href="#bitacoras" className="btn btn-outline btn-sm">
-              Bitácoras
+            <a
+              href="#bitacoras"
+              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+            >
+              Bitacoras
             </a>
           </li>
           <li>
-            <a href="#conexiones" className="btn btn-outline btn-sm">
+            <a
+              href="#conexiones"
+              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+            >
               Conexiones
             </a>
           </li>
           <li>
-            <a href="#matriz" className="btn btn-outline btn-sm">
-              Matriz
-            </a>
-          </li>
-          <li>
-            <a href="#pin5" className="btn btn-outline btn-sm">
+            <a
+              href="#pin5"
+              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+            >
               Pin 5
             </a>
           </li>
@@ -53,29 +60,36 @@ const Navbar = () => {
 
         {/* Mobile Menu Dropdown */}
         {isOpen && (
-          <ul className="menu menu-compact gap-2 p-2 bg-base-100 rounded-box mt-2 shadow md:hidden">
+          <ul className="flex md:hidden menu menu-vertical px-1 gap-4">
             <li>
-              <a href="#equipo-k" className="btn btn-outline btn-sm">
+              <a
+                href="#equipo-k"
+                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              >
                 Equipo K
               </a>
             </li>
             <li>
-              <a href="#bitacoras" className="btn btn-outline btn-sm">
-                Bitácoras
+              <a
+                href="#bitacoras"
+                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              >
+                Bitacoras
               </a>
             </li>
             <li>
-              <a href="#conexiones" className="btn btn-outline btn-sm">
+              <a
+                href="#conexiones"
+                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              >
                 Conexiones
               </a>
             </li>
             <li>
-              <a href="#matriz" className="btn btn-outline btn-sm">
-                Matriz
-              </a>
-            </li>
-            <li>
-              <a href="#pin5" className="btn btn-outline btn-sm">
+              <a
+                href="#pin5"
+                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              >
                 Pin 5
               </a>
             </li>
