@@ -145,7 +145,7 @@ export default function Component() {
   const podiumData: [PodiumPosition, PodiumPosition, PodiumPosition] = [
     {
       name: 'C8',
-      image: 'https://ui-avatars.com/api/?length=3&name=C8&color=000&background=fff',
+      image: 'https://ui-avatars.com/api/?length=3&name=🥈&color=000&background=fff',
       popup: 'Día de sombra (pasan el día laboral como sombra de otro compañero)',
       positivo: "Permite que los empleados aprendan directamente de otros compañeros. Esto ayuda a conocer mejor las tareas de otros departamentos o roles, mejora la comprensión del trabajo en equipo y promueve la colaboración.",
       negativo: "Si el empleado que 'hace sombra' interrumpe mucho al compañero o no está preparado para observar sin participar, puede convertirse en una distracción.",
@@ -153,7 +153,7 @@ export default function Component() {
     },
     {
       name: 'C10',
-      image: 'https://ui-avatars.com/api/?length=3&name=C10&color=000&background=fff',
+      image: 'https://ui-avatars.com/api/?length=3&name=🥇&color=000&background=fff',
       popup: 'Open Office virtual o presencial con los ejecutivos de cada área',
       positivo: "Estos espacios permiten mejorar la comunicación entre los empleados y los ejecutivos, generando una cercanía entre las áreas, resolviendo dudas rápidamente, conocer mejor los proyectos y consolidar el trabajo en equipo.",
       negativo: "Si el espacio es demasiado abierto o si los ejecutivos están constantemente disponibles, puede haber muchas interrupciones.",
@@ -161,7 +161,7 @@ export default function Component() {
     },
     {
       name: 'C14',
-      image: 'https://ui-avatars.com/api/?length=3&name=C14&color=000&background=fff',
+      image: 'https://ui-avatars.com/api/?length=3&name=🥉&color=000&background=fff',
       popup: 'Tertulias Transparentes: Espacios de preguntas y respuestas entre niveles jerárquicos',
       positivo: "Esto promueve una cultura de transparencia, ya que todos los niveles jerárquicos tienen la oportunidad de expresar sus inquietudes y recibir respuestas claras.",
       negativo: "Las preguntas de los empleados pueden ser incómodas para los directivos, o los empleados pueden sentirse temerosos de hacer preguntas difíciles debido a la jerarquía.",
