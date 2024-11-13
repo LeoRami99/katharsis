@@ -6,6 +6,9 @@ type PodiumPosition = {
   name: string;
   image: string;
   popup?: string;
+  positivo?: string;
+  negativo?: string;
+  incierto?: string;
 };
 
 type PodiumProps = {
@@ -85,6 +88,17 @@ const Podium: React.FC<PodiumProps> = ({ positions }) => {
             {selectedPosition.popup && (
               <p className="text-gray-600">{selectedPosition.popup}</p>
             )}
+            <p>
+              <strong> + Positivo:</strong> {selectedPosition.positivo}
+            </p>
+            <p>
+              <strong>- Negativo:</strong> {selectedPosition.negativo}
+            </p>
+            <p>
+              <strong>? Incierto:</strong> {selectedPosition.incierto}
+            </p>
+
+
             <button
               className="mt-4 px-4 py-2 bg-black text-white rounded hover:bg-gray-800 transition"
               onClick={handleClosePopup}
@@ -133,16 +147,26 @@ export default function Component() {
       name: 'C8',
       image: 'https://ui-avatars.com/api/?length=3&name=C8&color=000&background=fff',
       popup: 'Día de sombra (pasan el día laboral como sombra de otro compañero)',
+      positivo: "Permite que los empleados aprendan directamente de otros compañeros. Esto ayuda a conocer mejor las tareas de otros departamentos o roles, mejora la comprensión del trabajo en equipo y promueve la colaboración.",
+      negativo: "Si el empleado que 'hace sombra' interrumpe mucho al compañero o no está preparado para observar sin participar, puede convertirse en una distracción.",
+      incierto: "Esto dependerá de la disposición y la habilidad tanto del 'sombra' como del 'mentor' para hacer que la experiencia sea provechosa para ambos.",
     },
     {
       name: 'C10',
       image: 'https://ui-avatars.com/api/?length=3&name=C10&color=000&background=fff',
       popup: 'Open Office virtual o presencial con los ejecutivos de cada área',
+      positivo: "Estos espacios permiten mejorar la comunicación entre los empleados y los ejecutivos, generando una cercanía entre las áreas, resolviendo dudas rápidamente, conocer mejor los proyectos y consolidar el trabajo en equipo.",
+      negativo: "Si el espacio es demasiado abierto o si los ejecutivos están constantemente disponibles, puede haber muchas interrupciones.",
+      incierto: "Se debe evaluar previamente si todos los ejecutivos se sentirán cómodos con esta modalidad, especialmente si tienen agendas muy llenas y coordinar los horarios puede ser una dificultad",
     },
     {
       name: 'C14',
       image: 'https://ui-avatars.com/api/?length=3&name=C14&color=000&background=fff',
       popup: 'Tertulias Transparentes: Espacios de preguntas y respuestas entre niveles jerárquicos',
+      positivo: "Esto promueve una cultura de transparencia, ya que todos los niveles jerárquicos tienen la oportunidad de expresar sus inquietudes y recibir respuestas claras.",
+      negativo: "Las preguntas de los empleados pueden ser incómodas para los directivos, o los empleados pueden sentirse temerosos de hacer preguntas difíciles debido a la jerarquía.",
+      incierto: "Si no se fomenta adecuadamente la participación, es posible que solo un pequeño grupo de empleados se involucre, y no todos se beneficien de la iniciativa.",
+
     },
   ];
 
