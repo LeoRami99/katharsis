@@ -23,11 +23,11 @@ const Navbar = () => {
         </button>
 
         {/* Desktop Menu */}
-        <ul className="hidden md:flex menu menu-horizontal px-1 gap-4">
+        <ul className="hidden md:flex menu menu-horizontal px-1 gap-4 font-light">
           <li>
             <a
               href="#equipo-k"
-              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Equipo K
             </a>
@@ -35,7 +35,7 @@ const Navbar = () => {
           <li>
             <a
               href="#bitacoras"
-              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Bitacoras
             </a>
@@ -43,7 +43,7 @@ const Navbar = () => {
           <li>
             <a
               href="#conexiones"
-              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Conexiones
             </a>
@@ -51,7 +51,7 @@ const Navbar = () => {
           <li>
             <a
               href="#pin5"
-              className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+              className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
             >
               Pin 5
             </a>
@@ -60,11 +60,11 @@ const Navbar = () => {
 
         {/* Mobile Menu Dropdown */}
         {isOpen && (
-          <ul className="flex md:hidden menu menu-vertical px-1 gap-4">
+          <ul className="flex md:hidden menu menu-vertical px-1 gap-4 font-light">
             <li>
               <a
                 href="#equipo-k"
-                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+                className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
               >
                 Equipo K
               </a>
@@ -72,7 +72,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#bitacoras"
-                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+                className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
               >
                 Bitacoras
               </a>
@@ -80,7 +80,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#conexiones"
-                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+                className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
               >
                 Conexiones
               </a>
@@ -88,7 +88,7 @@ const Navbar = () => {
             <li>
               <a
                 href="#pin5"
-                className="relative btn btn-sm text-gray-700 font-semibold after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
+                className="relative btn btn-sm text-gray-700 font-light after:absolute after:left-0 after:right-0 after:bottom-0 after:h-[2px] after:bg-gray-900 after:scale-x-0 hover:after:scale-x-100 after:origin-center after:transition-transform after:duration-300"
               >
                 Pin 5
               </a>
