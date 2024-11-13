@@ -43,7 +43,7 @@ const TeamSection = () => {
             <img
                 src="/black-sheep.png"
                 alt=""
-                className="w-[200px] md:w-[300px] absolute bottom-0 left-0 z-10"
+                className="absolute lg:w-[200px]bottom-0 left-0 z-10"
             />
         </section>
 

@@ -1,7 +1,7 @@
 const SectionQuestion = () => {
     return (
         <section className="flex justify-center items-center h-screen bg-white relative flex-col">
-            <h1 className="text-black text-6xl font-bold text-center mt-10 mb-16">
+            <h1 className="text-black text-6xl font-bold text-center mt-10">
                 Nuestro Problema:
             </h1>
             <div className="md:w1/2">
@@ -10,7 +10,7 @@ const SectionQuestion = () => {
             <img
                 src="/ovejav3.png"
                 alt=""
-                className="w-[250px] md:w-[350px] absolute bottom-0  z-10 hidden md:block"
+                className="w-[250px] md:hidden absolute bottom-0  z-10"
             />
         </section>
     );
